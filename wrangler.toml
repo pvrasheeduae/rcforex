@@ -1,0 +1,15 @@
+name = "rcf-ai-proxy"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# After deploying, your live URL will be:
+#   https://rcf-ai-proxy.<your-cloudflare-subdomain>.workers.dev
+#
+# To set your Anthropic API key as a secret (never stored in this file):
+#   wrangler secret put GEMINI_API_KEY
+#
+# To deploy:
+#   wrangler deploy
+#
+# To test locally before deploying:
+#   wrangler dev
